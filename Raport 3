@@ -1,0 +1,8 @@
+Zrobione: 
+- Napisana funcja na dziedziczenie koloru oczu.
+- Napisana część funcji na dziedziczenie koloru włosów - brakuje określenia wyników, jakie się mają wyświetlać -> pracuję nad algorytmem dziedziczenia.
+- Stworzenie elementów do wybierania przy kolorze włosów i oczu - praca nad interfejsem.
+
+Planowane:
+- Napisanie 90% funkcji dziedziczenia z wynikami.
+- Poprawa wizaulna interfejsu. 

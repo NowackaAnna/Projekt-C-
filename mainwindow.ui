@@ -433,24 +433,24 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>90</y>
+      <y>110</y>
       <width>69</width>
       <height>22</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>El1</string>
+      <string>Niebieski</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>El2</string>
+      <string>Brązowy</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>El3</string>
+      <string>Zielony</string>
      </property>
     </item>
    </widget>
@@ -509,24 +509,29 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>130</y>
+      <y>150</y>
       <width>69</width>
       <height>22</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>El1</string>
+      <string>Blond</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>El2</string>
+      <string>Brązowe</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>El3</string>
+      <string>Czarne</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rude</string>
      </property>
     </item>
    </widget>
@@ -534,7 +539,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>170</y>
+      <y>190</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -559,7 +564,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>210</y>
+      <y>230</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -584,24 +589,24 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>90</y>
+      <y>110</y>
       <width>69</width>
       <height>22</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>El1</string>
+      <string>Niebieski</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>El2</string>
+      <string>Brązowy</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>El3</string>
+      <string>Zielony</string>
      </property>
     </item>
    </widget>
@@ -609,24 +614,29 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>130</y>
+      <y>150</y>
       <width>69</width>
       <height>22</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>El1</string>
+      <string>Blond</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>El2</string>
+      <string>Brązowe</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>El3</string>
+      <string>Czarne</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rude</string>
      </property>
     </item>
    </widget>
@@ -634,7 +644,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>170</y>
+      <y>190</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -659,7 +669,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>210</y>
+      <y>230</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -701,6 +711,71 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="text">
      <string>Sprawdź</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Jeszcze_nie_wiem_co">
+    <property name="geometry">
+     <rect>
+      <x>516</x>
+      <y>90</y>
+      <width>141</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kolor_wlosow1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>130</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolor Włosów</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kolor_oczu1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolor Oczu</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kolor_oczu2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>90</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolor Oczu</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kolor_wlosow2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>130</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolor Włosów</string>
     </property>
    </widget>
   </widget>

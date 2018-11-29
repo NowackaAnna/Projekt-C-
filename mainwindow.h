@@ -22,6 +22,10 @@ private:
     void kolor_oczu();
 private:
    void kolor_wlosow();
+private:
+   void grupa_krwi();
+private:
+   void rodzaj_wlosow();
 
 private:
     Ui::MainWindow *ui;

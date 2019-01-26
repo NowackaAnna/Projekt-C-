@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>801</width>
-    <height>420</height>
+    <height>631</height>
    </rect>
   </property>
   <property name="palette">
@@ -25,45 +25,45 @@
      <colorrole role="Button">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>85</green>
-        <blue>255</blue>
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Light">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>127</red>
-        <green>170</green>
-        <blue>255</blue>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Midlight">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>63</red>
-        <green>127</green>
-        <blue>255</blue>
+        <red>212</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Dark">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>42</green>
-        <blue>127</blue>
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Mid">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>56</green>
-        <blue>170</blue>
+        <red>113</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -106,9 +106,9 @@
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>85</green>
-        <blue>255</blue>
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -124,9 +124,9 @@
      <colorrole role="AlternateBase">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>127</red>
-        <green>170</green>
-        <blue>255</blue>
+        <red>212</red>
+        <green>127</green>
+        <blue>127</blue>
        </color>
       </brush>
      </colorrole>
@@ -162,45 +162,45 @@
      <colorrole role="Button">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>85</green>
-        <blue>255</blue>
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Light">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>127</red>
-        <green>170</green>
-        <blue>255</blue>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Midlight">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>63</red>
-        <green>127</green>
-        <blue>255</blue>
+        <red>212</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Dark">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>42</green>
-        <blue>127</blue>
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Mid">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>56</green>
-        <blue>170</blue>
+        <red>113</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -243,9 +243,9 @@
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>85</green>
-        <blue>255</blue>
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -261,9 +261,9 @@
      <colorrole role="AlternateBase">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>127</red>
-        <green>170</green>
-        <blue>255</blue>
+        <red>212</red>
+        <green>127</green>
+        <blue>127</blue>
        </color>
       </brush>
      </colorrole>
@@ -290,63 +290,63 @@
      <colorrole role="WindowText">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>42</green>
-        <blue>127</blue>
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Button">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>85</green>
-        <blue>255</blue>
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Light">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>127</red>
-        <green>170</green>
-        <blue>255</blue>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Midlight">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>63</red>
-        <green>127</green>
-        <blue>255</blue>
+        <red>212</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Dark">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>42</green>
-        <blue>127</blue>
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Mid">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>56</green>
-        <blue>170</blue>
+        <red>113</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Text">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>42</green>
-        <blue>127</blue>
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -362,27 +362,27 @@
      <colorrole role="ButtonText">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>42</green>
-        <blue>127</blue>
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Base">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>85</green>
-        <blue>255</blue>
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>85</green>
-        <blue>255</blue>
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -398,9 +398,9 @@
      <colorrole role="AlternateBase">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>0</red>
-        <green>85</green>
-        <blue>255</blue>
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -433,7 +433,7 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>110</y>
+      <y>80</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -458,7 +458,7 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>30</y>
+      <y>10</y>
       <width>104</width>
       <height>41</height>
      </rect>
@@ -475,7 +475,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>30</y>
+      <y>10</y>
       <width>104</width>
       <height>41</height>
      </rect>
@@ -491,9 +491,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QTextEdit" name="Wyniki">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>30</y>
-      <width>151</width>
+      <x>564</x>
+      <y>10</y>
+      <width>201</width>
       <height>41</height>
      </rect>
     </property>
@@ -509,7 +509,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>150</y>
+      <y>120</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -539,7 +539,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>190</y>
+      <y>160</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -569,7 +569,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>230</y>
+      <y>200</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -589,7 +589,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>110</y>
+      <y>80</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -614,7 +614,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>150</y>
+      <y>120</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -644,7 +644,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>190</y>
+      <y>160</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -674,7 +674,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>230</y>
+      <y>200</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -693,20 +693,20 @@ p, li { white-space: pre-wrap; }
    <widget class="QListView" name="PokazWyniki">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>80</y>
-      <width>151</width>
-      <height>192</height>
+      <x>564</x>
+      <y>50</y>
+      <width>201</width>
+      <height>381</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="Sprawdz">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>290</y>
-      <width>75</width>
-      <height>23</height>
+      <x>564</x>
+      <y>430</y>
+      <width>201</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
@@ -716,11 +716,183 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="Jeszcze_nie_wiem_co">
     <property name="geometry">
      <rect>
-      <x>516</x>
-      <y>90</y>
-      <width>141</width>
-      <height>171</height>
+      <x>570</x>
+      <y>60</y>
+      <width>191</width>
+      <height>371</height>
      </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="BrightText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>170</red>
+          <green>85</green>
+          <blue>127</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>223</red>
+          <green>21</green>
+          <blue>82</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>124</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Highlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>249</red>
+          <green>221</green>
+          <blue>107</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="HighlightedText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>83</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="NoRole">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>170</red>
+          <green>18</green>
+          <blue>51</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="BrightText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>170</red>
+          <green>85</green>
+          <blue>127</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>223</red>
+          <green>21</green>
+          <blue>82</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>124</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Highlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>249</red>
+          <green>221</green>
+          <blue>107</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="HighlightedText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>83</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="NoRole">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>170</red>
+          <green>18</green>
+          <blue>51</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="BrightText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>170</red>
+          <green>85</green>
+          <blue>127</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>85</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>170</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Highlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>51</red>
+          <green>153</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="HighlightedText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>83</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="NoRole">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>170</red>
+          <green>18</green>
+          <blue>51</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
     </property>
     <property name="text">
      <string/>
@@ -730,7 +902,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>130</y>
+      <y>100</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -743,7 +915,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>90</y>
+      <y>60</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -756,7 +928,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>90</y>
+      <y>60</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -769,7 +941,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>130</y>
+      <y>100</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -782,7 +954,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>170</y>
+      <y>140</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -795,7 +967,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>170</y>
+      <y>140</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -808,7 +980,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>210</y>
+      <y>180</y>
       <width>81</width>
       <height>16</height>
      </rect>
@@ -817,11 +989,11 @@ p, li { white-space: pre-wrap; }
      <string>Rodzaj włosów</string>
     </property>
    </widget>
-   <widget class="QLabel" name="grupa_krwi_3">
+   <widget class="QLabel" name="rodzaj_wlosow2">
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>210</y>
+      <y>180</y>
       <width>81</width>
       <height>16</height>
      </rect>
@@ -829,6 +1001,594 @@ p, li { white-space: pre-wrap; }
     <property name="text">
      <string>Rodzaj włosów</string>
     </property>
+   </widget>
+   <widget class="QLabel" name="kolor_skory1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolor skóry</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kolor_skory2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>220</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolor skóry</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cechy15">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>240</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Biały</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Czarny</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Żółty</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Metys</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mulat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zambos</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cechy25">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>240</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Biały</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Czarny</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Żółty</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Metys</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mulat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zambos</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="policzki1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>260</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dołeczki w policzkach</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="policzki2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>260</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dołeczki w policzkach</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cechy16">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>280</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Występują</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brak</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cechy26">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>280</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Występują</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brak</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="jezyk1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>300</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Skłonność do kontroli pracy językiem</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="jezyk2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>300</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Skłonność do kontroli pracy językiem</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cechy17">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>320</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Występuje</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brak</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cechy27">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>320</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Występuje</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brak</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="nos1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>340</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wiellkość nosa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nos2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>340</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wiellkość nosa</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cechy18">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>360</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Duży</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mały</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cechy28">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>360</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Duży</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mały</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="uszy1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>380</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stopień przyrośnięcia płatków uszu</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="uszy2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>380</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stopień przyrośnięcia płatków uszu</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cechy19">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>400</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Uszy odstające</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uszy przylegające</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cechy29">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>400</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Uszy odstające</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uszy przylegające</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="plasawica1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>420</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pląsawica Huntingtona</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="plasawica2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>420</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pląsawica Huntingtona</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cechy120">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>440</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Osoba chora</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nosiciel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Osoba zdrowa</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cechy210">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>440</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Osoba chora</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nosiciel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Osoba zdrowa</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="plec1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>460</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Płeć</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="plec2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>460</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Płeć</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cechy121">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>480</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Kobieta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mężczyzna</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cechy211">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>480</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Kobieta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mężczyzna</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="hemofilia">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>500</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hemofilia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hemofilia2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>500</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hemofilia</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cechy122">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>520</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Osoba zdrowa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nosiciel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Osoba chora</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cechy212">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>520</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Osoba zdrowa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nosiciel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Osoba chora</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">

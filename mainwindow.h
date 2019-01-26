@@ -26,6 +26,22 @@ private:
    void grupa_krwi();
 private:
    void rodzaj_wlosow();
+private:
+   void kolor_skory();
+private:
+   void policzki();
+private:
+   void jezyk();
+private:
+   void nos();
+private:
+   void uszy();
+private:
+   void plasawica();
+private:
+   void plec();
+private:
+   void hemofilia();
 
 private:
     Ui::MainWindow *ui;

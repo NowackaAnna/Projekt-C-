@@ -25,10 +25,26 @@ void MainWindow::on_Sprawdz_clicked()
     QString cecha12 = ui->cechy12->currentText();
     QString cecha13 = ui->cechy13->currentText();
     QString cecha14 = ui->cechy14->currentText();
+    QString cecha15 = ui->cechy15->currentText();
     QString cecha21 = ui->cechy21->currentText();
     QString cecha22 = ui->cechy22->currentText();
     QString cecha23 = ui->cechy23->currentText();
     QString cecha24 = ui->cechy24->currentText();
+    QString cecha25 = ui->cechy25->currentText();
+    QString cecha16 = ui->cechy16->currentText();
+    QString cecha26 = ui->cechy26->currentText();
+    QString cecha17 = ui->cechy17->currentText();
+    QString cecha27 = ui->cechy27->currentText();
+    QString cecha18 = ui->cechy18->currentText();
+    QString cecha28 = ui->cechy28->currentText();
+    QString cecha19 = ui->cechy19->currentText();
+    QString cecha29 = ui->cechy29->currentText();
+    QString cecha120 = ui->cechy120->currentText();
+    QString cecha210 = ui->cechy210->currentText();
+    QString cecha121 = ui->cechy121->currentText();
+    QString cecha211 = ui->cechy211->currentText();
+    QString cecha122 = ui->cechy122->currentText();
+    QString cecha212 = ui->cechy212->currentText();
 
 
 
@@ -38,6 +54,14 @@ void MainWindow::on_Sprawdz_clicked()
     kolor_wlosow();
     grupa_krwi();
     rodzaj_wlosow();
+    kolor_skory();
+    policzki();
+    jezyk();
+    nos();
+    uszy();
+    plasawica();
+    plec();
+    hemofilia();
 
 }
 
@@ -344,6 +368,611 @@ void MainWindow::rodzaj_wlosow()
 
 
     wyswietl += "\n " + wlosy_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+};
+
+
+void MainWindow::kolor_skory()
+{
+
+    int kolors_1 = ui->cechy15->currentIndex();
+    int kolors_2 = ui->cechy25->currentIndex();
+    QString kolors_wynik = " ";
+    if (kolors_1 == 0)
+    {
+        if (kolors_2 == 0)
+        {
+            kolors_wynik = "Biały - 100%";
+
+        }
+        if (kolors_2 == 1)
+        {
+            kolors_wynik = "Biały - 12,5% \nCzarny - 12,5% \nMulat - 75%";
+        }
+        if (kolors_2 == 2)
+        {
+            kolors_wynik = "Biały - 12,5% \nŻółty - 12,5% \nMetys - 75%";
+        }
+        if (kolors_2 == 3)
+        {
+            kolors_wynik = "Biały - 87,50% \nŻółty - 4,25% \nMetys - 7,25%";
+        }
+        if (kolors_2 ==4)
+        {
+            kolors_wynik = "Biały - 87,50% \nCzarny - 4,25% \nMulat - 7,25%";
+        }
+        if (kolors_2 == 5)
+        {
+            kolors_wynik = "Biały - 87,50% \nCzarny - 2,87% \nŻółty - 2,87% \nZambos - 6,75%";
+        }
+
+    }
+    else if (kolors_1 == 1)
+    {
+        if (kolors_2 == 0)
+        {
+            kolors_wynik = "Biały - 12,5% \nCzarny - 12,5% \nMulat - 75%";
+        }
+        if (kolors_2 == 1)
+        {
+            kolors_wynik = "Czarny - 100%";
+        }
+        if (kolors_2 == 2)
+        {
+            kolors_wynik = "Czarny - 12,5% \nŻółty - 12,5% \nZambos - 75%";
+        }
+        if (kolors_2 == 3)
+        {
+            kolors_wynik = "Czarny - 87,50% \nBiały - 2,87% \nŻółty - 2,87% \nMetys - 6,75%";
+        }
+        if (kolors_2 ==4)
+        {
+            kolors_wynik = "Czarny - 87,50% \nBiały - 4,25% \nMulat - 7,25%";
+        }
+        if (kolors_2 == 5)
+        {
+            kolors_wynik = "Czarny - 87,50% \nŻółty - 4,25% \nZambos - 7,25%";
+        }
+
+    }
+    else if (kolors_1 == 2)
+    {
+        if (kolors_2 == 0)
+        {
+            kolors_wynik = "Biały - 12,5% \nŻółty - 12,5% \nMetys - 75%";
+        }
+        if (kolors_2 == 1)
+        {
+            kolors_wynik = "Czarny - 12,5% \nŻółty - 12,5% \nZambos - 75%";
+        }
+        if (kolors_2 == 2)
+        {
+            kolors_wynik = "Żółty - 100%";
+        }
+        if (kolors_2 == 3)
+        {
+            kolors_wynik = "Żółty - 87,50% \nBiały - 4,25% \nMetys - 7,25%";
+        }
+        if (kolors_2 ==4)
+        {
+            kolors_wynik = "Żółty - 87,50% \nBiały - 2,87% \nCzarny - 2,87% \nMulat - 6,75%";
+        }
+        if (kolors_2 == 5)
+        {
+            kolors_wynik = "Żółty - 87,50% \nCzarny - 4,25% \nZambos - 7,25%";
+        }
+
+    }
+    else if (kolors_1 == 3)
+    {
+        if (kolors_2 == 0)
+        {
+            kolors_wynik = "Biały - 87,50% \nŻółty - 4,25% \nMetys - 7,25%";
+        }
+        if (kolors_2 == 1)
+        {
+            kolors_wynik = "Czarny - 87,50% \nBiały - 2,87% \nŻółty - 2,87% \nMetys - 6,75%";
+        }
+        if (kolors_2 == 2)
+        {
+            kolors_wynik = "Żółty - 87,50% \nBiały - 4,25% \nMetys - 7,25%";
+        }
+        if (kolors_2 == 3)
+        {
+            kolors_wynik = "Metys - 50% \nBiały - 25% \nŻółty - 25%";
+        }
+        if (kolors_2 ==4)
+        {
+            kolors_wynik = "Biały - 50% \nCzarny - 17,5% \nŻółty - 17,5% \nMetys - 7,50% \nMulat - 7,50%";
+        }
+        if (kolors_2 == 5)
+        {
+            kolors_wynik = "Żółty - 50% \nBiały - 17,5% \nCzarny - 17,5% \nMetys - 7,50% \nZambos - 7,50%";
+        }
+
+    }
+    else if (kolors_1 == 4)
+    {
+        if (kolors_2 == 0)
+        {
+           kolors_wynik = "Biały - 87,50% \nCzarny - 4,25% \nMulat - 7,25%";
+        }
+        if (kolors_2 == 1)
+        {
+            kolors_wynik = "Czarny - 87,50% \nŻółty - 4,25% \nZambos - 7,25%";
+        }
+        if (kolors_2 == 2)
+        {
+            kolors_wynik = "Żółty - 87,50% \nBiały - 2,87% \nCzarny - 2,87% \nMulat - 6,75%";
+        }
+        if (kolors_2 == 3)
+        {
+            kolors_wynik = "Biały - 50% \nCzarny - 17,5% \nŻółty - 17,5% \nMetys - 7,50% \nMulat - 7,50%";
+        }
+        if (kolors_2 ==4)
+        {
+            kolors_wynik = "Mulat - 50% \nBiały - 25% \nCzarny - 25%";
+        }
+        if (kolors_2 == 5)
+        {
+            kolors_wynik = "Czarny - 50% \nBiały - 17,5% \nŻółty - 17,5% \nMulat - 7,50% \nZambos - 7,50%";
+        }
+
+    }
+    else if (kolors_1 == 4)
+    {
+        if (kolors_2 == 0)
+        {
+           kolors_wynik = "Biały - 87,50% \nCzarny - 2,87% \nŻółty - 2,87% \nZambos - 6,75%";
+        }
+        if (kolors_2 == 1)
+        {
+            kolors_wynik = "Czarny - 87,50% \nBiały - 4,25% \nMulat - 7,25%";
+        }
+        if (kolors_2 == 2)
+        {
+            kolors_wynik = "Żółty - 87,50% \nCzarny - 4,25% \nZambos - 7,25%";
+        }
+        if (kolors_2 == 3)
+        {
+            kolors_wynik = "Żółty - 50% \nBiały - 17,5% \nCzarny - 17,5% \nMetys - 7,50% \nZambos - 7,50%";
+        }
+        if (kolors_2 ==4)
+        {
+            kolors_wynik = "Czarny - 50% \nBiały - 17,5% \nŻółty - 17,5% \nMulat - 7,50% \nZambos - 7,50%";
+        }
+        if (kolors_2 == 5)
+        {
+            kolors_wynik = "Zambos - 50% \nCzarny - 25% \nŻółty - 25%";
+        }
+
+    }
+    else
+    {
+        kolors_wynik = "Za mało danych";
+    };
+
+    wyswietl += "\nKolor skóry \n" + kolors_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+};
+
+
+void MainWindow::policzki()
+{
+
+    int policzki_1 = ui->cechy16->currentIndex();
+    int policzki_2 = ui->cechy26->currentIndex();
+    QString policzki_wynik = " ";
+    if (policzki_1 == 0)
+    {
+        if (policzki_2 == 0)
+        {
+            policzki_wynik = "Występowanie dołeczków - 93,75%";
+
+        }
+        if (policzki_2 == 1)
+        {
+            policzki_wynik = "Występowanie dołeczków - 75%";
+        }
+
+
+    }
+    else if (policzki_1 == 1)
+    {
+        if (policzki_2 == 0)
+        {
+            policzki_wynik = "Występowanie dołeczków - 75%";
+        }
+        if (policzki_2 == 1)
+        {
+            policzki_wynik = "Występowanie dołeczków - 0%";
+        }
+
+    }
+
+    else
+    {
+        policzki_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\n" + policzki_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+}
+void MainWindow::jezyk()
+{
+
+    int jezyk_1 = ui->cechy17->currentIndex();
+    int jezyk_2 = ui->cechy27->currentIndex();
+    QString jezyk_wynik = " ";
+    if (jezyk_1 == 0)
+    {
+        if (jezyk_2 == 0)
+        {
+             jezyk_wynik = "Skłonność do pracy \nmięśniowej językiem - 93,75%";
+
+        }
+        if (jezyk_2 == 1)
+        {
+            jezyk_wynik = "Skłonność do pracy \nmięśniowej językiem - 75%";
+        }
+
+
+    }
+    else if (jezyk_1 == 1)
+    {
+        if (jezyk_2 == 0)
+        {
+            jezyk_wynik = "Skłonność do pracy \nmięśniowej językiem - 75%";
+        }
+        if (jezyk_2 == 1)
+        {
+            jezyk_wynik = "Skłonność do pracy \nmięśniowej językiem - 0%";
+        }
+
+    }
+
+    else
+    {
+        jezyk_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\n" + jezyk_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+}
+void MainWindow::nos()
+{
+
+    int nos_1 = ui->cechy18->currentIndex();
+    int nos_2 = ui->cechy28->currentIndex();
+    QString nos_wynik = " ";
+    if (nos_1 == 0)
+    {
+        if (nos_2 == 0)
+        {
+             nos_wynik = "Wielkość nosa: \nDuży - 93,75% \nMały - 6,25%";
+
+        }
+        if (nos_2 == 1)
+        {
+            nos_wynik = "Wielkość nosa: \nDuży - 75% \nMały - 25%";
+        }
+
+
+    }
+    else if (nos_1 == 1)
+    {
+        if (nos_2 == 0)
+        {
+            nos_wynik = "Wielkość nosa: \nDuży - 75% \nMały - 25%";
+        }
+        if (nos_2 == 1)
+        {
+            nos_wynik = "Wielkość nosa: \nMały - 100%";
+        }
+
+    }
+
+    else
+    {
+        nos_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\n" + nos_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+}
+void MainWindow::uszy()
+{
+
+    int uszy_1 = ui->cechy19->currentIndex();
+    int uszy_2 = ui->cechy29->currentIndex();
+    QString uszy_wynik = " ";
+    if (uszy_1 == 0)
+    {
+        if (uszy_2 == 0)
+        {
+             uszy_wynik = "Uszy odstające - 93,75%";
+
+        }
+        if (uszy_2 == 1)
+        {
+            uszy_wynik = "Uszy odstające - 75%";
+        }
+
+
+    }
+    else if (uszy_1 == 1)
+    {
+        if (uszy_2 == 0)
+        {
+            uszy_wynik = "Uszy odstające - 75%";
+        }
+        if (uszy_2 == 1)
+        {
+            uszy_wynik = "Uszy odstające - 0%";
+        }
+
+    }
+
+    else
+    {
+        uszy_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\n" + uszy_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+}
+
+
+void MainWindow::plasawica()
+{
+
+    int p_1 = ui->cechy120->currentIndex();
+    int p_2 = ui->cechy210->currentIndex();
+    QString p_wynik = " ";
+    if (p_1 == 0)
+    {
+        if (p_2 == 0)
+        {
+             p_wynik = "Wstąpienie chorby - 100%";
+
+        }
+        if (p_2 == 1)
+        {
+            p_wynik = "Osoba chora - 50% \nNosiciel \n(50%szans na zachorowanie) - 50%";
+        }
+        if (p_2 == 2)
+        {
+            p_wynik = "Nosiciel \n(50% szans na zachorowanie) - 100%";
+        }
+
+
+    }
+    else if (p_1 == 1)
+    {
+        if (p_2 == 0)
+        {
+            p_wynik = "Osoba chora - 50% \nNosiciel \n(50%szans na zachorowanie) - 50%";
+        }
+        if (p_2 == 1)
+        {
+            p_wynik = "Osoba chora - 25% \nNosiciel \n(50%szans na zachorowanie) - 50% \nOsoba zdrowa - 25%";
+        }
+        if (p_2 == 2)
+        {
+            p_wynik = "Nosiciel \n(50% szans na zachorowanie) - 50% \nOsoba zdrowa - 50%";
+        }
+
+    }
+    else if (p_1 == 2)
+    {
+        if (p_2 == 0)
+        {
+             p_wynik = "Nosiciel \n(50% szans na zachorowanie) - 100%";
+        }
+        if (p_2 == 1)
+        {
+            p_wynik = "Nosiciel \n(50% szans na zachorowanie) - 50% \nOsoba zdrowa - 50%";
+        }
+        if (p_2 == 2)
+        {
+            p_wynik = "Osoba zdrowa - 100%";
+        }
+
+    }
+
+    else
+    {
+        p_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\n" + p_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+}
+
+
+void MainWindow::plec()
+{
+
+    int plec_1 = ui->cechy121->currentIndex();
+    int plec_2 = ui->cechy211->currentIndex();
+    QString plec_wynik = " ";
+    if (plec_1 == 0)
+    {
+        if (plec_2 == 0)
+        {
+             plec_wynik = "Córka - 0% \nSyn - 0%";
+
+        }
+        if (plec_2 == 1)
+        {
+            plec_wynik = "Córka - 50% \nSyn - 50%";
+        }
+
+
+    }
+    else if (plec_1 == 1)
+    {
+        if (plec_2 == 0)
+        {
+            plec_wynik = "Córka - 50% \nSyn - 50%";
+        }
+        if (plec_2 == 1)
+        {
+            plec_wynik = "Córka - 0% \nSyn - 0%";
+        }
+
+    }
+
+    else
+    {
+        plec_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\n" + plec_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+}
+
+void MainWindow::hemofilia()
+{
+
+    int plec_1 = ui->cechy121->currentIndex();
+    int plec_2 = ui->cechy211->currentIndex();
+    int hem_1 = ui->cechy122->currentIndex();
+    int hem_2 = ui->cechy212->currentIndex();
+    QString hem_wynik = " ";
+    if (plec_1 == 0)
+    {
+        if (plec_2 == 0)
+        {
+             hem_wynik = "Nie ma możliwości dziedziczenia.";
+
+        }
+        if (plec_2 == 1)
+        {
+            if (hem_1 == 0)
+            {
+                if (hem_2 == 0)
+                {
+                    hem_wynik = "Córka zdrowa - 100% \nSyn zdrowy - 100%";
+                }
+                if (hem_2 == 1)
+                {
+                    hem_wynik = "Mężczyzna nie może być nosicielem.";
+                }
+                if (hem_2 == 2)
+                {
+                    hem_wynik = "Córka nosicielka - 100% \nSyn zdrowy - 100%";
+                }
+            }
+            if (hem_1 == 1)
+            {
+                if (hem_2 == 0)
+                {
+                    hem_wynik = "Córka zdrowa - 50% \nCórka nosicielka - 50% \nSyn zdrowy - 50% \nSyn chory - 50%";
+                }
+                if (hem_2 == 1)
+                {
+                    hem_wynik = "Mężczyzna nie może być nosicielem.";
+                }
+                if (hem_2 == 2)
+                {
+                    hem_wynik = "Córka nosicielka - 50% \nCórka chora - 50% \nSyn zdrowy - 50% \nSyn chory - 50%";
+                }
+            }
+            if (hem_1 == 2)
+            {
+                if(hem_2 == 0)
+                {
+                    hem_wynik = "Córka nosicielka - 100% \nSyn chory - 100%";
+                }
+                if (hem_2 == 1)
+                {
+                    hem_wynik = "Mężczyzna nie może być nosiecielm.";
+                }
+                if (hem_2 == 2)
+                {
+                    hem_wynik = "Córka chora - 100% \nSyn chory - 100%";
+                }
+            }
+        }
+
+
+    }
+    else if (plec_1 == 1)
+    {
+        if (plec_2 == 0)
+        {
+            if (hem_1 ==0)
+            {
+                if(hem_2 == 0)
+                {
+                   hem_wynik = "Córka zdrowa - 100% \nSyn zdrowy - 100%";
+                }
+                if (hem_2 == 1)
+                {
+                    hem_wynik = "Córka zdrowa - 50% \nCórka nosicielka - 50% \nSyn zdrowy - 50% \nSyn chory - 50%";
+                }
+                if (hem_2 == 2)
+                {
+                    hem_wynik = "Córka nosicielka - 100% \nSyn chory - 100%";
+                }
+            }
+            if (hem_1 == 1)
+            {
+                hem_wynik = "Mężczyzna nie może być nosicielem.";
+            }
+            if (hem_1 == 2)
+            {
+                if(hem_2 == 0)
+                {
+                    hem_wynik = "Córka nosicielka - 100% \nSyn zdrowy - 100%";
+                }
+                if (hem_2 == 1)
+                {
+                   hem_wynik = "Córka nosicielka - 50% \nCórka chora - 50% \nSyn zdrowy - 50% \nSyn chory - 50%";
+                }
+                if(hem_2 == 2)
+                {
+                    hem_wynik = "Córka chora - 100% \nSyn chory - 100%";
+                }
+            }
+        }
+        if (plec_2 == 1)
+        {
+            hem_wynik = "Nie ma możliwości dziedziczenia.";
+        }
+
+    }
+
+    else
+    {
+        hem_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\n" + hem_wynik;
     ui->Jeszcze_nie_wiem_co->setText(wyswietl);
 
 

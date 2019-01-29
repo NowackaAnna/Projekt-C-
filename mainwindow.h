@@ -42,6 +42,10 @@ private:
    void plec();
 private:
    void hemofilia();
+private:
+   void daltonizm();
+private:
+   void rh();
 
 private:
     Ui::MainWindow *ui;

@@ -45,6 +45,10 @@ void MainWindow::on_Sprawdz_clicked()
     QString cecha211 = ui->cechy211->currentText();
     QString cecha122 = ui->cechy122->currentText();
     QString cecha212 = ui->cechy212->currentText();
+    QString cecha123 = ui->cechy123->currentText();
+    QString cecha213 = ui->cechy213->currentText();
+    QString cecha124 = ui->cechy124->currentText();
+    QString cecha214 = ui->cechy214->currentText();
 
 
 
@@ -62,6 +66,8 @@ void MainWindow::on_Sprawdz_clicked()
     plasawica();
     plec();
     hemofilia();
+    daltonizm();
+    rh();
 
 }
 
@@ -80,7 +86,7 @@ void MainWindow::kolor_oczu()
         }
         if (kolor_2 == 1)
         {
-            kolor_wynik = "Kolor oczu: \nBrązowy - 50% \nZielony - 50%";
+            kolor_wynik = "Kolor oczu: \nBrązowy - 50% \nNiebieski - 50%";
         }
         if (kolor_2 == 2)
         {
@@ -92,15 +98,15 @@ void MainWindow::kolor_oczu()
     {
         if (kolor_2 == 0)
         {
-            kolor_wynik = "Kolor oczu: \nBrązowy - 50% \nZielony - 50%";
+            kolor_wynik = "Kolor oczu: \nBrązowy - 50% \nNiebieski - 50%";
         }
         if (kolor_2 == 1)
         {
-            kolor_wynik = "Kolor oczu: \nBrązowy - 75% \nZielony - 18% \nNiebieski - 7%";
+            kolor_wynik = "Kolor oczu: \nBrązowy - 75% \nZielony - 18,75% \nNiebieski - 6,25%";
         }
         if (kolor_2 == 2)
         {
-            kolor_wynik = "Kolor oczu: \nBrązowy - 50% \nZielony - 12% \nNiebieski - 38%";
+            kolor_wynik = "Kolor oczu: \nBrązowy - 50% \nZielony - 37,5% \nNiebieski - 12,5%";
         }
 
     }
@@ -112,11 +118,11 @@ void MainWindow::kolor_oczu()
         }
         if (kolor_2 == 1)
         {
-            kolor_wynik = "Kolor oczu: \nBrązowy - 50% \nZielony - 12% \nNiebieski - 38%";
+            kolor_wynik = "Kolor oczu: \nBrązowy - 50% \nZielony - 37,5% \nNiebieski - 12,5%";
         }
         if (kolor_2 == 2)
         {
-            kolor_wynik = "Kolor oczu: \nZielony - 25% \nNiebieski - 75%";
+            kolor_wynik = "Kolor oczu: \nZielony - 75% \nNiebieski - 25%";
         }
 
     }
@@ -143,20 +149,20 @@ void MainWindow::kolor_wlosow()
     {
         if (kolorw_2 == 0)
         {
-            kolorw_wynik = "Niebieski - 99% \nZielony - 1%";
+            kolorw_wynik = "Blond - 93,75% \nBrąz - 6,25%";
 
         }
         if (kolorw_2 == 1)
         {
-            kolorw_wynik = "Brązowy - 50% \nZielony - 50%";
+            kolorw_wynik = "Blond - 50% \nBrąz - 50%";
         }
         if (kolorw_2 == 2)
         {
-            kolorw_wynik = "Zielony - 50% \nNiebiski - 50%";
+            kolorw_wynik = "Blond - 93,75% \nRudy - 6,25%";
         }
         if (kolorw_2 == 3)
         {
-            kolorw_wynik = "Zielony - 50% \nNiebiski - 50%";
+            kolorw_wynik = "Brąz - 87,50% \nBlond - 6,25% \nCzarny - 6,25";
         }
 
     }
@@ -164,19 +170,19 @@ void MainWindow::kolor_wlosow()
     {
         if (kolorw_2 == 0)
         {
-            kolorw_wynik = "Brązowy - 50% \nZielony - 50%";
+            kolorw_wynik = "Blond - 50% \nBrąz - 50%";
         }
         if (kolorw_2 == 1)
         {
-            kolorw_wynik = "Brązowy - 75% \nZielony - 18% \nNiebieski - 7%";
+            kolorw_wynik = "Brąz - 97,5% \nBlond - 1,25% \nCzarny - 1,25%";
         }
         if (kolorw_2 == 2)
         {
-            kolorw_wynik = "Brązowy - 50% \nZielony - 12% \nNiebieski - 38%";
+            kolorw_wynik = "Brąz - 50% \nRudy - 50%";
         }
         if (kolorw_2 == 3)
         {
-            kolorw_wynik = "Zielony - 50% \nNiebiski - 50%";
+            kolorw_wynik = "Brąz - 50% \nCzarny - 50%";
         }
 
     }
@@ -184,19 +190,19 @@ void MainWindow::kolor_wlosow()
     {
         if (kolorw_2 == 0)
         {
-            kolorw_wynik = "Zielony - 50% \nNiebieski - 50%";
+            kolorw_wynik = "Blond - 93,75% \nRudy - 6,25%";
         }
         if (kolorw_2 == 1)
         {
-            kolorw_wynik = "Brązowy - 50% \nZielony - 12% \nNiebieski - 38%";
+            kolorw_wynik = "Brąz - 50% \nRudy - 50%";
         }
         if (kolorw_2 == 2)
         {
-            kolorw_wynik = "Zielony - 25% \nNiebieski - 75%";
+            kolorw_wynik = "Rudy - 100%";
         }
         if (kolorw_2 == 3)
         {
-            kolorw_wynik = "Zielony - 50% \nNiebiski - 50%";
+            kolorw_wynik = "Brąz - 87,5% \nRudy - 6,25% \nCzarny - 6,25%";
         }
 
     }
@@ -204,19 +210,19 @@ void MainWindow::kolor_wlosow()
     {
         if (kolorw_2 == 0)
         {
-            kolorw_wynik = "Zielony - 50% \nNiebieski - 50%";
+            kolorw_wynik = "Brąz - 87,50% \nBlond - 6,25% \nCzarny - 6,25";
         }
         if (kolorw_2 == 1)
         {
-            kolorw_wynik = "Brązowy - 50% \nZielony - 12% \nNiebieski - 38%";
+            kolorw_wynik = "Brąz - 50% \nCzarny - 50%";
         }
         if (kolorw_2 == 2)
         {
-            kolorw_wynik = "Zielony - 25% \nNiebieski - 75%";
+            kolorw_wynik = "Brąz - 87,50% \nRudy - 6,25% \nCzarny - 6,25%";
         }
         if (kolorw_2 == 3)
         {
-            kolorw_wynik = "Zielony - 50% \nNiebiski - 50%";
+            kolorw_wynik = "Czarny - 93,75% \nBrąz - 6,25%";
         }
 
     }
@@ -225,7 +231,7 @@ void MainWindow::kolor_wlosow()
         kolorw_wynik = "Za mało danych";
     };
 
-    wyswietl += "\n " + kolorw_wynik;
+    wyswietl += "\nKolor włosów: \n" + kolorw_wynik;
     ui->Jeszcze_nie_wiem_co->setText(wyswietl);
 
 
@@ -972,7 +978,177 @@ void MainWindow::hemofilia()
     };
 
 
-    wyswietl += "\n" + hem_wynik;
+    wyswietl += "\nHemofilia: \n" + hem_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+}
+
+void MainWindow::daltonizm()
+{
+
+    int plec_1 = ui->cechy121->currentIndex();
+    int plec_2 = ui->cechy211->currentIndex();
+    int dal_1 = ui->cechy123->currentIndex();
+    int dal_2 = ui->cechy213->currentIndex();
+    QString dal_wynik = " ";
+    if (plec_1 == 0)
+    {
+        if (plec_2 == 0)
+        {
+             dal_wynik = "Nie ma możliwości dziedziczenia.";
+
+        }
+        if (plec_2 == 1)
+        {
+            if (dal_1 == 0)
+            {
+                if (dal_2 == 0)
+                {
+                    dal_wynik = "Córka zdrowa - 100% \nSyn zdrowy - 100%";
+                }
+                if (dal_2 == 1)
+                {
+                    dal_wynik = "Mężczyzna nie może być nosicielem.";
+                }
+                if (dal_2 == 2)
+                {
+                    dal_wynik = "Córka nosicielka - 100% \nSyn zdrowy - 100%";
+                }
+            }
+            if (dal_1 == 1)
+            {
+                if (dal_2 == 0)
+                {
+                    dal_wynik = "Córka zdrowa - 50% \nCórka nosicielka - 50% \nSyn zdrowy - 50% \nSyn chory - 50%";
+                }
+                if (dal_2 == 1)
+                {
+                    dal_wynik = "Mężczyzna nie może być nosicielem.";
+                }
+                if (dal_2 == 2)
+                {
+                    dal_wynik = "Córka nosicielka - 50% \nCórka chora - 50% \nSyn zdrowy - 50% \nSyn chory - 50%";
+                }
+            }
+            if (dal_1 == 2)
+            {
+                if(dal_2 == 0)
+                {
+                    dal_wynik = "Córka nosicielka - 100% \nSyn chory - 100%";
+                }
+                if (dal_2 == 1)
+                {
+                    dal_wynik = "Mężczyzna nie może być nosiecielm.";
+                }
+                if (dal_2 == 2)
+                {
+                    dal_wynik = "Córka chora - 100% \nSyn chory - 100%";
+                }
+            }
+        }
+
+
+    }
+    else if (plec_1 == 1)
+    {
+        if (plec_2 == 0)
+        {
+            if (dal_1 ==0)
+            {
+                if(dal_2 == 0)
+                {
+                   dal_wynik = "Córka zdrowa - 100% \nSyn zdrowy - 100%";
+                }
+                if (dal_2 == 1)
+                {
+                    dal_wynik = "Córka zdrowa - 50% \nCórka nosicielka - 50% \nSyn zdrowy - 50% \nSyn chory - 50%";
+                }
+                if (dal_2 == 2)
+                {
+                    dal_wynik = "Córka nosicielka - 100% \nSyn chory - 100%";
+                }
+            }
+            if (dal_1 == 1)
+            {
+                dal_wynik = "Mężczyzna nie może być nosicielem.";
+            }
+            if (dal_1 == 2)
+            {
+                if(dal_2 == 0)
+                {
+                    dal_wynik = "Córka nosicielka - 100% \nSyn zdrowy - 100%";
+                }
+                if (dal_2 == 1)
+                {
+                   dal_wynik = "Córka nosicielka - 50% \nCórka chora - 50% \nSyn zdrowy - 50% \nSyn chory - 50%";
+                }
+                if(dal_2 == 2)
+                {
+                    dal_wynik = "Córka chora - 100% \nSyn chory - 100%";
+                }
+            }
+        }
+        if (plec_2 == 1)
+        {
+            dal_wynik = "Nie ma możliwości dziedziczenia.";
+        }
+
+    }
+
+    else
+    {
+        dal_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\nDaltonizm: \n" + dal_wynik;
+    ui->Jeszcze_nie_wiem_co->setText(wyswietl);
+
+
+}
+
+
+void MainWindow::rh()
+{
+
+    int rh_1 = ui->cechy124->currentIndex();
+    int rh_2 = ui->cechy214->currentIndex();
+    QString rh_wynik = " ";
+    if (rh_1 == 0)
+    {
+        if (rh_2 == 0)
+        {
+             rh_wynik = "Czynnik Rh: \nDodatni - 93,75% \nUjemny - 6,25%";
+
+        }
+        if (rh_2 == 1)
+        {
+            rh_wynik = "Czynnik Rh: \nDodatni - 75% \nUjemny - 25%";
+        }
+
+
+    }
+    else if (rh_1 == 1)
+    {
+        if (rh_2 == 0)
+        {
+            rh_wynik = "Czynnik Rh: \nDodatni - 75% \nUjemny - 25%";
+        }
+        if (rh_2 == 1)
+        {
+            rh_wynik = "Czynnik Rh: \nUjemny - 100%";
+        }
+
+    }
+
+    else
+    {
+        rh_wynik = "Za mało danych";
+    };
+
+
+    wyswietl += "\n" + rh_wynik;
     ui->Jeszcze_nie_wiem_co->setText(wyswietl);
 
 

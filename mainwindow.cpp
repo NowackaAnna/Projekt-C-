@@ -808,7 +808,7 @@ void MainWindow::plasawica()
     };
 
 
-    wyswietl += "\n" + p_wynik;
+    wyswietl += "\nPlsąwica: " + p_wynik;
     ui->Jeszcze_nie_wiem_co->setText(wyswietl);
 
 
